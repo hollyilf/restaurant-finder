@@ -1,0 +1,236 @@
+/* ------------------------------------ General: ------------------------------------  */
+
+* {
+  font-family: 'Hanken Grotesk', sans-serif;}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 0 16px 80px;
+}
+
+/* ------------------------------------ Header: ------------------------------------  */
+
+header {
+  background-color: #F4BEEE;
+  margin: auto -16px;
+  padding: 16px 46px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+  font-size: 3.3rem;  
+  color: #5271ff;
+  display: inline-block;
+}
+
+.header-form-btn {
+  margin: 5px 0;
+  width: 275px;
+}
+
+/* ------------------------------------ Main: ------------------------------------  */
+
+.body-title {
+  margin: 30px 30px 0;
+  font-size: 2rem;
+  color: darkslategrey;
+}
+
+.body-text {
+  font-size: 1.3rem;
+  margin: 30px;
+}
+
+/* ------ Info Cards: ------  */
+
+.info-card {
+  width: 18rem;
+  margin: 30px;
+  padding: 20px;
+  display: inline-block;
+  color: #282c34;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.info-card-img {
+  padding: 40px;
+}
+
+.info-card-body {
+  padding: 10px;
+}
+
+.info-card-rating-count {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.info-card-borough {
+  margin-bottom: 0;
+}
+
+.info-card-btn {
+  display: inline-block;
+  width: 100%;
+  margin: 4px 0 10px 0;
+}
+
+/* ------ Rating Cards: ------  */
+
+.rating-card {
+  margin: 10px 30px;
+  padding: 16px;
+  padding-bottom: 0;
+}
+
+/* ------ Rating Form: ------  */
+
+.range {
+  display: inline-block;
+  width: 200px;
+  padding-top: 17px;
+}
+
+.range-row {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.range-col {
+  padding-left: 0px;
+}
+
+ .given-rating {
+   width: 50px;
+   margin-left: 12px;
+ } 
+
+ .no-rating {
+  margin: 30px;
+ }
+
+ .submitted-text {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  padding: 0;
+  text-align: left;
+ }
+
+ .hidden {
+  display: none;
+}
+
+/* ------ Buttons: ------  */
+
+.btn-back {
+  margin: 30px;
+}
+
+.btn-back-search {
+  margin-bottom: 0;
+}
+
+.btn-load-results {
+  width: 275px;
+  margin: 30px;
+}
+
+.load-results-div {
+  display: block;
+  text-align: center;
+}
+
+/* ------------------------------------ Footer: ------------------------------------  */
+
+.footer-div {
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  padding: 5;
+  text-align: center;
+  width:100%;
+}
+
+/* ------------------------------------ Breakpoints: ------------------------------------  */
+
+ @media (max-width: 576px) {
+  /* General:  */
+   body {
+    text-align: center;
+  } 
+  /* Header:  */
+  header {
+    padding: 16px 20px;
+  }   
+  .header-title {
+    font-size: 2.8rem;
+  }
+  .header-col {
+    width: 100%;
+  }
+  .header-form-width {
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Range:  */
+  .range-row {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .range-col-range {
+  margin-left: auto;
+  }
+  .range-col-btn {
+  margin-right: auto;
+  }
+  .submitted-text {
+    text-align: center;
+  }
+} 
+
+@media (max-width: 453px) {
+  /* Header:  */
+  .header-title {
+    font-size: 1.9rem;
+  }
+  /* Main:  */
+  .body-title {
+    font-size: 1.5rem;
+  }
+  .info-card {
+    width: 18rem;
+    margin: 15px 0;
+  }
+  .rating-card {
+    margin: 10px 15px;
+  }
+  .btn-load-results {
+    margin: 30px 0;
+  }
+  /* Range:  */
+  .given-rating {
+    margin-left: 0;
+  }
+  .no-rating {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 441px) {
+  /* Range:  */
+  .range-col-range {
+    margin-right: auto;
+    }
+  .range-col-btn {
+    margin-left: auto;
+    margin-top: 16px;
+  }
+  .submitted-text {
+      margin-top: 79px;
+  }  
+ }
